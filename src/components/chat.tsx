@@ -14,34 +14,67 @@ import "@/app/globals.css";
 function ToolsUsed() {
   return (
     <div className="flex items-center justify-center space-x-4">
-      <SiReact size={30} title="React" style={{ color: "#61DAFB" }} />{" "}
-      {/* React Blue */}
+      <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
+        <SiReact size={30} title="React" style={{ color: "#61DAFB" }} />
+        {/* React Blue */}
+      </a>
       <span className="text-xl">+</span>
-      <SiTailwindcss
-        size={30}
-        title="Tailwind CSS"
-        style={{ color: "#06B6D4" }}
-      />{" "}
-      {/* Tailwind Teal */}
+
+      <a
+        href="https://tailwindcss.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <SiTailwindcss
+          size={30}
+          title="Tailwind CSS"
+          style={{ color: "#06B6D4" }}
+        />
+        {/* Tailwind Teal */}
+      </a>
       <span className="text-xl">+</span>
-      <SiTypescript
-        size={30}
-        title="TypeScript"
-        style={{ color: "#3178C6" }}
-      />{" "}
-      {/* TypeScript Blue */}
+
+      <a
+        href="https://www.typescriptlang.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <SiTypescript
+          size={30}
+          title="TypeScript"
+          style={{ color: "#3178C6" }}
+        />
+        {/* TypeScript Blue */}
+      </a>
       <span className="text-xl">+</span>
-      <SiOpenai size={30} title="OpenAI" style={{ color: "#0071C5" }} />{" "}
-      {/* Placeholder for OpenAI color */}
+
+      <a
+        href="https://platform.openai.com/docs/overview"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <SiOpenai size={30} title="OpenAI" style={{ color: "#0071C5" }} />
+        {/* Placeholder for OpenAI color */}
+      </a>
       <span className="text-xl">+</span>
-      <IoLogoVercel
-        size={30}
-        title="Vercel"
-        style={{ color: "#000000" }}
-      />{" "}
-      {/* Vercel Black */}
-      <TbSdk size={30} title="SDK" style={{ color: "#F05032" }} />{" "}
-      {/* Assuming SDK color as red for example */}
+
+      <a
+        href="https://sdk.vercel.ai/docs"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <IoLogoVercel size={30} title="Vercel" style={{ color: "#000000" }} />
+        {/* Vercel Black */}
+      </a>
+
+      <a
+        href="https://sdk.vercel.ai/docs"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <TbSdk size={30} title="SDK" style={{ color: "#F05032" }} />
+        {/* Assuming SDK color as red for example, replace with actual SDK link */}
+      </a>
     </div>
   );
 }
