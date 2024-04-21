@@ -4,15 +4,13 @@
 
 - **Interactive Chat Interface**: A sleek and user-friendly interface facilitating seamless interactions with the ChatBot.
 - **Real-time Responses**: Leverages backend logic to provide instantaneous and context-aware replies, ensuring a natural conversation flow.
-- **Customization Options**: Users can customize settings to modify the ChatBot’s behavior and responses.
 - **Next.js Framework**: Utilizes the robustness of Next.js for server-side rendering and static site generation.
 - **Vercel SDK Integration**: [Used Vercel's new SDK](https://sdk.vercel.ai/docs)
 
 ## Tools Used
 
-- **Frontend**: Next.js, React, TailwindCSS
-- **Backend**: Node.js, Express
-- **APIs**: OpenAI API, Additional SDKs like Microsoft Bot Framework
+- **Frontend**: Next.js, React, TailwindCSS, Shad Components
+- **APIs**: OpenAI API, Vercel SDK
 - **Version Control**: Git
 - **Deployment**: Vercel (for hosting), GitHub (for source control and CI/CD workflows)
 
@@ -41,11 +39,9 @@ To run this project locally, follow these steps:
 
 ## Contributing
 
-We welcome contributions to make this project even better! If you have suggestions for improvements or wish to add new features, please fork the repository, make your changes, and submit a pull request.
+If you have suggestions for improvements or wish to add new features, please fork the repository, make your changes, and submit a pull request.
 
 ## Contact Information
-
-For more information, please reach out to me at:
 
 - **Email**: jayakuma006@mymail.sim.edu.sg
 - **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
