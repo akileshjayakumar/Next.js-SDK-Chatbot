@@ -1,6 +1,6 @@
 # [Next.js14 SDK ChatBot](https://nextjs14-sdk-chatbot.vercel.app/)
 
-Here is the link to the [Live Site](https://nextjs14-sdk-chatbot.vercel.app/)!
+Here is the link to the live site: [https://nextjs14-sdk-chatbot.vercel.app/](https://nextjs14-sdk-chatbot.vercel.app/)
 
 ## Key Features
 
