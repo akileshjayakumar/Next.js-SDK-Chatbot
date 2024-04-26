@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js SDK ChatBot",
+  title: "Next.js14 SDK ChatBot",
 };
 
 export default function Layout({
