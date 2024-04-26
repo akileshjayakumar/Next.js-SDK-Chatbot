@@ -1,4 +1,6 @@
-# [Next.js SDK ChatBot](https://nextjs14-sdk-chatbot.vercel.app/)
+# [Next.js14 SDK ChatBot](https://nextjs14-sdk-chatbot.vercel.app/)
+
+Here is the link to the [Live Site](https://nextjs14-sdk-chatbot.vercel.app/)!
 
 ## Key Features
 
@@ -9,8 +11,8 @@
 
 ## Tools Used
 
-- **Frontend**: Next.js, React, TailwindCSS, Shad Components
-- **APIs**: OpenAI API, Vercel SDK
+- **Frontend**: Next.js, React, TailwindCSS, [shadcn/ui](https://ui.shadcn.com/docs)
+- **APIs**: OpenAI API
 - **Version Control**: Git
 - **Deployment**: Vercel (for hosting), GitHub (for source control and CI/CD workflows)
 
@@ -39,7 +41,13 @@ To run this project locally, follow these steps:
 
 ## Contributing
 
-If you have suggestions for improvements or wish to add new features, please fork the repository, make your changes, and submit a pull request.
+Your contributions are welcome! If you have ideas for improvements or new features:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Submit a pull request.
 
 ## Contact Information
 
