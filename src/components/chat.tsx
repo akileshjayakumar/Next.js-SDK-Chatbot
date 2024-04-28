@@ -4,9 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useChat } from "ai/react";
 import { useEffect, useRef } from "react";
-import { SiReact, SiTailwindcss, SiTypescript, SiOpenai } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiOpenai } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { FaCircleUser } from "react-icons/fa6";
+import { TbBrandNextjs } from "react-icons/tb";
 import { AiFillRobot } from "react-icons/ai";
 import { TbSdk } from "react-icons/tb";
 import "@/app/globals.css";
@@ -14,9 +15,37 @@ import "@/app/globals.css";
 function ToolsUsed() {
   return (
     <div className="flex items-center justify-center space-x-4">
-      <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
-        <SiReact size={30} title="React" style={{ color: "#61DAFB" }} />
-        {/* React Blue */}
+      <style>
+        {`
+          .hover-scale-parent:hover > * {
+            transform: scale(1.25);
+          }
+        `}
+      </style>
+      <a
+        href="https://nextjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-1"
+      >
+        <TbBrandNextjs
+          size={30}
+          title="Next.js"
+          className="text-black space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
+        />
+      </a>
+      <span className="text-xl">+</span>
+      <a
+        href="https://www.typescriptlang.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-1"
+      >
+        <SiTypescript
+          size={30}
+          title="TypeScript"
+          className="text-blue-600 space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
+        />
       </a>
       <span className="text-xl">+</span>
 
@@ -24,27 +53,13 @@ function ToolsUsed() {
         href="https://tailwindcss.com/"
         target="_blank"
         rel="noopener noreferrer"
+        className="flex items-center space-x-1"
       >
         <SiTailwindcss
           size={30}
           title="Tailwind CSS"
-          style={{ color: "#06B6D4" }}
+          className="text-cyan-500 space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
         />
-        {/* Tailwind Teal */}
-      </a>
-      <span className="text-xl">+</span>
-
-      <a
-        href="https://www.typescriptlang.org/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <SiTypescript
-          size={30}
-          title="TypeScript"
-          style={{ color: "#3178C6" }}
-        />
-        {/* TypeScript Blue */}
       </a>
       <span className="text-xl">+</span>
 
@@ -52,28 +67,31 @@ function ToolsUsed() {
         href="https://platform.openai.com/docs/overview"
         target="_blank"
         rel="noopener noreferrer"
+        className="flex items-center space-x-1"
       >
-        <SiOpenai size={30} title="OpenAI" style={{ color: "#0071C5" }} />
-        {/* Placeholder for OpenAI color */}
+        <SiOpenai
+          size={30}
+          title="Tailwind CSS"
+          className="space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
+        />
       </a>
       <span className="text-xl">+</span>
-
       <a
         href="https://sdk.vercel.ai/docs"
         target="_blank"
         rel="noopener noreferrer"
+        className="flex items-center space-x-1 hover-scale-parent"
       >
-        <IoLogoVercel size={30} title="Vercel" style={{ color: "#000000" }} />
-        {/* Vercel Black */}
-      </a>
-
-      <a
-        href="https://sdk.vercel.ai/docs"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <TbSdk size={30} title="SDK" style={{ color: "#F05032" }} />
-        {/* Assuming SDK color as red for example, replace with actual SDK link */}
+        <IoLogoVercel
+          size={30}
+          title="Vercel"
+          className="space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
+        />
+        <TbSdk
+          size={30}
+          title="Vercel SDK"
+          className="text-red-600 space-x-1 transition duration-300 ease-in-out transform hover:scale-125"
+        />
       </a>
     </div>
   );
