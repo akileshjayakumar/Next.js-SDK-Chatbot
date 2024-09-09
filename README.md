@@ -1,4 +1,4 @@
-# Next.js14 SDK ChatBot
+# Next.js14 SDK Chatbot
 
 Here is the link to the live site: [https://nextjs14-sdk-chatbot.vercel.app](https://nextjs14-sdk-chatbot.vercel.app/)
 
@@ -41,4 +41,4 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 5. **Access the application:**
-   Open `http://localhost:3000` in your web browser to interact with the ChatBot.
+   Open `http://localhost:3000` in your web browser to interact with the Chatbot.
