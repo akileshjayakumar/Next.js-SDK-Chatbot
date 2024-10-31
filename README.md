@@ -1,6 +1,6 @@
-# Next.js14 SDK Chatbot
+# Next.js SDK Chatbot
 
-Here is the link to the live site: [https://nextjs14-sdk-chatbot.vercel.app](https://nextjs14-sdk-chatbot.vercel.app/)
+Here is the link to the live site: [https://nextjs-sdk-chatbot.vercel.app](https://nextjs-sdk-chatbot.vercel.app)
 
 ## Tech Stack
 
